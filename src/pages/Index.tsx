@@ -2,44 +2,45 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WildlifeRemovalInfo from "@/components/landing/WildlifeRemovalInfo";
+import BedBugHeatTreatmentInfo from "@/components/landing/BedBugHeatTreatmentInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
+import { Search, ShieldCheck, Zap } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>wildlife removal douglasville ga | Douglasville Wildlife Removal Pros</title>
-        <meta name="description" content="Looking for professional wildlife removal douglasville ga? Specialist animal control, damage repair, and humane exclusion services for Douglasville properties. Call 3238801224 today!" />
-        <meta name="keywords" content="wildlife removal douglasville ga, Douglasville animal control, raccoon removal Douglasville, squirrel removal Douglasville GA, pest control Douglasville" />
-        <link rel="canonical" href="https://wildliferemovaldouglasvillega.vercel.app/" />
+        <title>bed bug heat treatment baltimore md | Baltimore Bed Bug Heat Treatment Pros</title>
+        <meta name="description" content="Looking for professional bed bug heat treatment baltimore md? Expert thermal elimination, 100% eradication, and discreet bed bug removal for Baltimore homes. Call 3238801224 today!" />
+        <meta name="keywords" content="bed bug heat treatment baltimore md, Baltimore bed bug exterminator, heat treatment for bed bugs Baltimore, professional bed bug removal Baltimore MD, pest control Baltimore" />
+        <link rel="canonical" href="https://bedbugheattreatmentbaltimoremd.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Douglasville Wildlife Removal Pros",
+            "name": "Baltimore Bed Bug Heat Treatment Pros",
             "image": "/1.jpeg",
-            "@id": "https://wildliferemovaldouglasvillega.vercel.app/",
-            "url": "https://wildliferemovaldouglasvillega.vercel.app/",
+            "@id": "https://bedbugheattreatmentbaltimoremd.vercel.app/",
+            "url": "https://bedbugheattreatmentbaltimoremd.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Main St",
-              "addressLocality": "Douglasville",
-              "addressRegion": "GA",
-              "postalCode": "30134",
+              "streetAddress": "Inner Harbor",
+              "addressLocality": "Baltimore",
+              "addressRegion": "MD",
+              "postalCode": "21201",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.7515",
-              "longitude": "-84.7477"
+              "latitude": "39.2904",
+              "longitude": "-76.6122"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,32 +55,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Wildlife Removal & Animal Control",
+            "serviceType": "Bed Bug Heat Treatment",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Douglasville Wildlife Removal Pros"
+              "name": "Baltimore Bed Bug Heat Treatment Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Douglasville, GA"
+              "name": "Baltimore, MD"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Wildlife Control Services",
+              "name": "Bed Bug Eradication Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Exclusion" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Restoration" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Heat Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Bed Bug Eradication" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Remediation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bed Bug Inspections" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="wildlife removal douglasville ga | Douglasville Wildlife Removal Pros" />
-        <meta property="og:description" content="Expert wildlife removal services in Douglasville, GA. Protect your home and family with professional trapping and humane exclusion." />
+        <meta property="og:title" content="bed bug heat treatment baltimore md | Baltimore Bed Bug Heat Treatment Pros" />
+        <meta property="og:description" content="Expert bed bug heat treatment services in Baltimore, MD. Get 100% elimination in a single day with professional thermal remediation." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://wildliferemovaldouglasvillega.vercel.app/" />
+        <meta property="og:url" content="https://bedbugheattreatmentbaltimoremd.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -88,19 +89,24 @@ const Index = () => {
         <Hero
           title={
             <>
-              Wildlife <br />
-              <span className="text-white drop-shadow-sm uppercase">Removal in Douglasville GA</span>
+              Bed Bug <br />
+              <span className="text-white drop-shadow-sm uppercase">Heat Treatment in Baltimore MD</span>
             </>
           }
-          subtitle="Douglasville's premier specialists in professional wildlife removal. We provide advanced trapping, humane exclusion techniques, and comprehensive property protection to keep your home animal-free. Dedicated to Douglasville's safety and peace of mind. Available 24/7."
+          subtitle="Baltimore's premier specialists in professional bed bug heat treatment. We provide advanced thermal remediation that reaches every corner of your home, ensuring 100% eradication of bed bugs and their eggs in a single day. Discreet, eco-friendly, and effective."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="DOUGLASVILLE WILDLIFE REMOVAL PROS"
+          badge="BALTIMORE BED BUG HEAT TREATMENT PROS"
           phone="3238801224"
+          features={[
+            { icon: Search, text: "Detection Experts" },
+            { icon: Zap, text: "Thermal Remediation" },
+            { icon: ShieldCheck, text: "100% Eradication" }
+          ]}
         />
         <Services />
         <WhyUs />
-        <WildlifeRemovalInfo />
+        <BedBugHeatTreatmentInfo />
         <Contact />
         <FAQ />
 
@@ -125,3 +131,4 @@ const Index = () => {
 };
 
 export default Index;
+

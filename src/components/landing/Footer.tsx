@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Douglasville GA</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Wildlife Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Baltimore MD</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Bed Bug Heat Treatment Pros</span>
               </div>
             </div>
-            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Douglasville's specialized team for professional wildlife removal and property protection. We provide elite-grade animal control to reclaim your home's safety.
+            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm text-nowrap">
+              Baltimore's specialized team for professional <br /> bed bug heat treatment and property protection. <br /> We provide elite-grade thermal remediation.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Bed Bug Services</h4>
             <ul className="space-y-4">
               {[
-                "Wildlife Trapping",
-                "Humane Exclusion",
-                "Attic Cleanup",
-                "Damage Restoration",
-                "Entry Point Sealing",
-                "Emergency Wildlife Control"
+                "Thermal Remediation",
+                "Full Home Heat Treatment",
+                "Apartment Bed Bug Eradication",
+                "Commercial Heat Treatment",
+                "Bed Bug Inspections",
+                "Eco-Friendly Removal"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Douglasville NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Baltimore NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,8 +60,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">Main St</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Douglasville, GA 30134</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">Inner Harbor</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Baltimore, MD 21201</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Inquiries</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
+                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">3238801224</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -88,22 +88,22 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the unique wildlife control requirements of Douglasville GA homes, using precision methods and professional-grade exclusion materials.
+              We specialize in the unique bed bug eradication requirements of Baltimore MD homes, using precision thermal methods and professional-grade heat sensors.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Wildlife Assessments Available Across Douglasville.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Thermal Assessments Available Across Baltimore.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Douglasville Wildlife Removal Pros. All rights reserved. Professional Wildlife Control & safety.
+            © {new Date().getFullYear()} Baltimore Bed Bug Heat Treatment Pros. All rights reserved. Professional Bed Bug Eradication & safety.
           </p>
 
-          <div className="flex gap-8 items-center">
-            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">Lease my number ($19/mo)</a>
+          <div className="flex gap-8 items-center text-nowrap">
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">LEASE MY NUMBER AND INK IT TO LEASE PAGE</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>

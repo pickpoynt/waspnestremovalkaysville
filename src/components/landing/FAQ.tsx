@@ -3,88 +3,84 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How much does wildlife removal cost?",
-    answer: "In Douglasville, wildlife removal costs typically range from $150 to $500 for a basic extraction, but can increase depending on the complexity of exclusion and the extent of property damage."
+    question: "How much is a typical heat treatment for bed bugs?",
+    answer: "In Baltimore, a typical residential heat treatment ranges from $1,000 to $3,000 depending on the square footage and the severity of the infestation."
   },
   {
-    question: "What is the phone number for animal control in Douglas GA?",
-    answer: "The official Douglas County Animal Control can be reached at (770) 942-5961 for domestic animal issues, though private firms are recommended for residential wildlife removal."
+    question: "Does heat treatment for bed bugs really work?",
+    answer: "Yes, heat treatment is highly effective. It is the only method that can achieve 100% eradication of bed bugs and their eggs in a single session by reaching every corner of the home."
   },
   {
-    question: "What is nuisance wildlife removal?",
-    answer: "Nuisance wildlife removal refers to the professional service of humanely trapping and relocating animals (like raccoons, squirrels, or bats) that have become a disturbance or threat to a property."
+    question: "How much does Terminix charge for bed bug heat treatment?",
+    answer: "Major national companies like Terminix often charge between $1,500 and $4,000 for comprehensive bed bug heat remediation services."
   },
   {
-    question: "What happens if you get caught with a squirrel in GA?",
-    answer: "In Georgia, it is illegal to keep wild squirrels as pets without a proper permit. Wildlife must be handled by licensed rehabilitators or removal specialists."
+    question: "How much to rent a bed bug heater?",
+    answer: "Renting a bed bug heater in Baltimore can cost between $200 and $500 per day. however, professional treatment is recommended for guaranteed results and safety."
   },
   {
-    question: "What is the hardest pest to get rid of?",
-    answer: "Many specialists consider rats or raccoons the hardest nuisance wildlife to eliminate permanently due to their high intelligence and persistence in re-entering buildings."
+    question: "Will homeowners insurance cover bed bugs?",
+    answer: "Generally, no. Most homeowners insurance policies consider bed bug infestations a maintenance issue and do not provide coverage for treatment or damage."
   },
   {
-    question: "Does homeowners insurance cover wildlife removal?",
-    answer: "Most standard policies do not cover the removal itself, but they often cover the damage caused by certain wildlife, such as chewed wiring or structural harm, depending on the animal."
+    question: "How much does Orkin charge for bed bugs?",
+    answer: "Orkin's pricing for bed bug services typically starts around $1,500 for specialized treatments, varying based on the size of the area being treated."
   },
   {
-    question: "Does it cost money to call Animal Control?",
-    answer: "Calling municipal animal control in Douglasville is typically free for public safety reports, but they usually do not provide removal services for wildlife inside private attics or crawlspaces."
+    question: "What do exterminators do to get rid of bed bugs?",
+    answer: "Exterminators use industrial heaters to raise the temperature of the home to 120°F-140°F, using high-powered fans to circulate the air and ensure every hiding spot is treated."
   },
   {
-    question: "Who do you call for a wild animal?",
-    answer: "For wild animals on private property in Douglasville, you should call a licensed wildlife removal operator like Douglasville Wildlife Removal Pros at 3238801224."
+    question: "How much do bed bug exterminators charge?",
+    answer: "Chemical treatments may start at $300 per room, while whole-home heat treatments typically range from $1,000 to $3,500+ depending on the home's size."
   },
   {
-    question: "What is the new pet law in Georgia?",
-    answer: "Georgia recently updated laws regarding animal welfare and tethering, emphasizing proper shelter and humane treatment for domestic pets across Douglas County."
+    question: "What draws bed bugs out of hiding during the day?",
+    answer: "Bed bugs are primarily attracted to the CO2 and body heat emitted by humans. While they are nocturnal, they will come out during the day if they are hungry."
   },
   {
-    question: "Who pays for animal control?",
-    answer: "Douglas County Animal Control is funded by local tax dollars for public services, while private wildlife removal is the financial responsibility of the homeowner."
+    question: "What are the downsides of heat treatment?",
+    answer: "The primary downsides are the higher initial cost compared to chemical sprays and the preparation required, such as removing heat-sensitive items from the home."
   },
   {
-    question: "Can you find out who reported you to Animal Control?",
-    answer: "Typically, reporting names are kept confidential by Douglas County Animal Control to encourage public safety reporting, though they are accessible under specific legal discovery."
+    question: "How did people get rid of bed bugs in the old days?",
+    answer: "Historically, people used extreme methods like boiling water, kerosene, and even toxic chemicals like DDT before safer, more effective thermal methods were developed."
   },
   {
-    question: "How do you call animal control near me?",
-    answer: "Residents in Douglasville can dial 770-942-5961 for the Douglas County Animal Services or use 911 for immediate public safety emergencies involving animals."
+    question: "Can I do bed bug heat treatment myself?",
+    answer: "DIY heat treatment is not recommended. Household heaters cannot safely reach the sustained lethal temperatures required for complete eradication."
   },
   {
-    question: "Is Douglas, GA a good place to live?",
-    answer: "Douglasville is highly regarded for its suburban feel, historic downtown, and proximity to Atlanta, making it a popular choice for families in the West Atlanta metro area."
+    question: "Can bed bugs live in clothes?",
+    answer: "Yes, bed bugs frequently hide in clothing. Washing and drying clothes on the highest heat setting is a critical step in the remediation process."
   },
   {
-    question: "Is it illegal to walk your dog without a leash in Georgia?",
-    answer: "Yes, Douglas County has strict leash laws requiring dogs to be under physical control (leashed) whenever they are off the owner's private property."
+    question: "Can you feel bed bugs crawling on you?",
+    answer: "Most people do not feel bed bugs crawling. They are extremely light and usually feed while the host is in a deep sleep."
   },
   {
-    question: "What are the 4 types of animal abuse?",
-    answer: "The four primary categories generally recognized are neglect, physical abuse, psychological abuse (cruelty), and organized abuse (like animal fighting)."
+    question: "How to 100% get rid of bed bugs?",
+    answer: "Professional heat treatment is the most reliable method to achieve 100% eradication of adults, nymphs, and eggs in a single visit."
   },
   {
-    question: "Is Douglas County growing or shrinking?",
-    answer: "Douglas County is one of the fastest-growing counties in the Atlanta metro area, with steady population increases over the last decade."
+    question: "Can bed bugs live in pillows?",
+    answer: "Yes, bed bugs can hide in pillow seams or deep inside the pillow stuffing. We recommend treating all bedding during the heat remediation process."
   },
   {
-    question: "What happens to abandoned animals?",
-    answer: "In Douglasville, abandoned animals are typically picked up by animal control and taken to the Douglas County Animal Shelter for medical assessment and potential adoption."
+    question: "Why is bed bug heat treatment so expensive?",
+    answer: "The cost reflects the specialized industrial equipment, the high energy consumption, and the intensive labor required to monitor and manage lethal temperatures safely."
   },
   {
-    question: "Do I get charged for calling Animal Control?",
-    answer: "No, there is typically no charge for contacting Douglas County Animal Control for reports, though citations or fees may be issued if an owner is found in violation of local ordinances."
+    question: "Does homeowners insurance cover bed bugs?",
+    answer: "No, bed bugs are almost universally excluded from standard homeowners and renters insurance policies in Maryland."
   },
   {
-    question: "Who to call if concerned about a dog?",
-    answer: "If you suspect neglect or abuse of a dog in Douglasville, contact Douglas County Animal Control at 770-942-5961 or the Douglas County Sheriff's Office."
+    question: "Can I use a space heater to get rid of bed bugs?",
+    answer: "No. Standard space heaters are a fire hazard when run at high temperatures for long periods and cannot produce the even, intense heat needed for eradication."
   },
   {
-    question: "What is the new dog law in Georgia?",
-    answer: "Recent updates focus on 'Responsible Dog Ownership,' detailing requirements for containing dangerous dogs and increasing penalties for negligence that leads to attacks."
-  },
-  {
-    question: "What movies were filmed in Douglas, GA?",
-    answer: "Douglasville is a major filming hub, hosting productions like Stranger Things (the Hawkins Police Station), The Hunger Games movies, and The Walking Dead."
+    question: "Can you do heat treatment for bed bugs in an apartment?",
+    answer: "Yes, heat treatment is ideal for apartments as it is non-toxic and effectively kills bed bugs without forcing them to move into neighboring units."
   }
 ];
 
@@ -96,10 +92,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Wildlife Removal <span className="text-indigo-600">in Douglasville GA FAQ</span>
+            Bed Bug Heat Treatment <span className="text-indigo-600">in Baltimore MD FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about animal control, wildlife exclusion techniques, and protection laws in Douglasville.
+            Common questions about thermal remediation, professional eradication techniques, and protection in Baltimore.
           </p>
         </div>
 

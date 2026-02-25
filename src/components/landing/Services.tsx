@@ -3,33 +3,33 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Raccoon Trapping",
-    description: "Our Douglasville GA specialists use humane, precision trapping to quickly remove nuisance raccoons from your property."
+    title: "Thermal Remediation",
+    description: "Our Baltimore specialists use industrial-grade heaters to eliminate bed bugs in a single, eco-friendly treatment."
   },
   {
     icon: Search,
-    title: "Humane Exclusion",
-    description: "Advanced one-way doors and entry point sealing that allow wildlife to leave but prevent them from returning to your Douglasville home."
+    title: "Eco-Friendly Removal",
+    description: "100% chemical-free solutions that are safe for your family and pets while ensuring total bed bug eradication."
   },
   {
     icon: Activity,
-    title: "Attic Decontamination",
-    description: "We thoroughly clean and sanitize attics damaged by wildlife, removing waste and pheromones to ensure a safe, healthy environment."
+    title: "Full Home Eradication",
+    description: "We treat your entire property to ensure no bed bugs or eggs survive in even the most hidden crevices."
   },
   {
     icon: Zap,
-    title: "Emergency Removal",
-    description: "Rapid response for active wildlife threats in Douglasville. We deploy fast-acting, professional-grade control protocols immediately."
+    title: "Same-Day Results",
+    description: "Our heat treatment process is completed in just one day, allowing you to return to a bug-free home by evening."
   },
   {
     icon: Sprout,
-    title: "Damage Restoration",
-    description: "Targeted repair for roofing, soffits, and insulation damaged by animals using professional-grade materials and techniques."
+    title: "Apartment Specialists",
+    description: "Discreet and effective heat treatments tailored for Baltimore apartments and multi-unit housing complexes."
   },
   {
     icon: ShieldCheck,
-    title: "Property Shield",
-    description: "Seasonal inspections and proactive monitoring to ensure your Douglasville property remains free of wildlife activity year-round."
+    title: "Certified Protection",
+    description: "Fully licensed and insured professionals providing guaranteed bed bug elimination across the Baltimore metro area."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Wildlife Removal Douglasville GA</span>
+            Expert <span className="text-indigo-600">Bed Bug Heat Treatment Baltimore MD</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive wildlife solutions designed for Douglasville's unique properties. We reclaim your home's integrity and safety.
+            Comprehensive thermal remediation solutions designed for Baltimore's unique homes and apartments. We reclaim your home's comfort and safety.
           </p>
         </div>
 
