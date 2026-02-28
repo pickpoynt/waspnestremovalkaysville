@@ -1,6 +1,39 @@
 import { ShieldCheck, Zap, Droplets, MapPin, Search, Hammer, Clock } from "lucide-react";
 
 const TrenchlessInfo = () => {
+    const knowledgeItems = [
+        {
+            icon: Search,
+            title: "Hydro-Jetting Before Lining",
+            desc: "Why hydro-jetting is essential for Scottsdale pipes: High-pressure water removes decades of buildup ensuring the epoxy bond is permanent."
+        },
+        {
+            icon: Hammer,
+            title: "HDPE vs. CIPP",
+            desc: "Understanding pipe bursting: We pull a brand-new high-density polyethylene pipe through your old one, increasing diameter and flow."
+        },
+        {
+            icon: ShieldCheck,
+            title: "Root Intrusion Prevention",
+            desc: "How trenchless seals out roots: Traditional joints are where roots enter. Our seamless liner eliminates joints, making root entry impossible."
+        },
+        {
+            icon: MapPin,
+            title: "Scottsdale Depth Experts",
+            desc: "Navigating deep sewer lines in North Scottsdale: Our specialized pull-systems and robotic cutters handle depths exceeding 15 feet."
+        },
+        {
+            icon: Clock,
+            title: "Cure Times in Heat",
+            desc: "Managing epoxy resins in the Scottsdale climate: We use specialized temperature-controlled resins that cure perfectly in Arizona summer heat."
+        },
+        {
+            icon: Droplets,
+            title: "Camera Certification",
+            desc: "Verification via HD camera: We provide before-and-after video documentation so you can see the seamless interior of your restored pipe."
+        }
+    ];
+
     return (
         <div className="bg-white py-24">
             <div className="container mx-auto px-4">
@@ -61,46 +94,18 @@ const TrenchlessInfo = () => {
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {[
-                            {
-                                icon: Search,
-                                title: "Hydro-Jetting Before Lining",
-                                desc: "Why hydro-jetting is essential for Scottsdale pipes: High-pressure water removes decades of buildup ensuring the epoxy bond is permanent."
-                            },
-                            {
-                                icon: Hammer,
-                                title: "HDPE vs. CIPP",
-                                desc: "Understanding pipe bursting: We pull a brand-new high-density polyethylene pipe through your old one, increasing diameter and flow."
-                            },
-                            {
-                                icon: ShieldCheck,
-                                title: "Root Intrusion Prevention",
-                                desc: "How trenchless seals out roots: Traditional joints are where roots enter. Our seamless liner eliminates joints, making root entry impossible."
-                            },
-                            {
-                                icon: MapPin,
-                                title: "Scottsdale Depth Experts",
-                                desc: "Navigating deep sewer lines in North Scottsdale: Our specialized pull-systems and robotic cutters handle depths exceeding 15 feet."
-                            },
-                            {
-                                icon: Clock,
-                                title: "Cure Times in Heat",
-                                desc: "Managing epoxy resins in the Scottsdale climate: We use specialized temperature-controlled resins that cure perfectly in Arizona summer heat."
-                            },
-                            {
-                                icon: Droplets,
-                                title: "Camera Certification",
-                                desc: "Verification via HD camera: We provide before-and-after video documentation so you can see the seamless interior of your restored pipe."
-                            }
-                        ].map((item, i) => (
-                            <div key={i} className="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors group">
-                                <div className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center mb-6 shadow-sm group-hover:bg-indigo-600 group-hover:text-white transition-all">
-                                    <item.icon className="w-6 h-6" />
+                        {knowledgeItems.map((item, i) => {
+                            const Icon = item.icon;
+                            return (
+                                <div key={i} className="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors group">
+                                    <div className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center mb-6 shadow-sm group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                                        <Icon className="w-6 h-6" />
+                                    </div>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-3 uppercase tracking-tight">{item.title}</h3>
+                                    <p className="text-sm text-slate-600 leading-relaxed font-medium">{item.desc}</p>
                                 </div>
-                                <h3 className="text-lg font-bold text-slate-900 mb-3 uppercase tracking-tight">{item.title}</h3>
-                                <p className="text-sm text-slate-600 leading-relaxed font-medium">{item.desc}</p>
-                            </div>
-                        ))}
+                            );
+                        })}
                     </div>
 
                     <div className="mt-16 bg-slate-900 rounded-[3rem] p-12 overflow-hidden relative">

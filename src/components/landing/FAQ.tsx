@@ -1,4 +1,4 @@
-import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, Info, CheckCircle, AlertCircle, TrendingUp, DollarSign, Home, Waves, Activity, Tool, FileText, Warning, Scissors } from "lucide-react";
+import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, Award, Info, CheckCircle, AlertCircle, TrendingUp, DollarSign, Home, Waves, Activity, Wrench, FileText, Scissors, LucideIcon } from "lucide-react";
 
 const faqs = [
   {
@@ -52,7 +52,7 @@ const faqs = [
     answer: "Look for frequent backups, slow drains, gurgling noises from toilets, or unusually lush green patches in your Scottsdale yard (which indicates a leak)."
   },
   {
-    icon: Tool,
+    icon: Wrench,
     question: "Does trenchless work for cast iron pipes?",
     answer: "Yes. Cast iron often suffers from 'channeling' or scale buildup. We clean the pipe via hydro-jetting and then line it to create a smooth, permanent interior."
   },
@@ -108,7 +108,6 @@ const faqs = [
   }
 ];
 
-import { LucideIcon } from "lucide-react";
 
 const FAQCard = ({ icon: Icon, question, answer }: { icon: LucideIcon, question: string, answer: string }) => (
   <div className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:border-indigo-200 transition-all group h-full">
