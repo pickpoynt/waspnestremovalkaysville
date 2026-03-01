@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Boonton Slab Leak Detection Professionals</title>
-                <meta name="description" content="Replace this slab leak detection phone number with your own business line in Boonton, NJ for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Boonton Polybutylene Repipe Professionals</title>
+                <meta name="description" content="Replace this polybutylene pipe replacement phone number with your own business line in Boonton, NJ for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -29,7 +29,7 @@ const LeaseNumber = () => {
                                 Lease This <br /> Phone Number
                             </h1>
                             <p className="text-indigo-200 text-xl max-w-2xl mx-auto leading-relaxed font-bold italic">
-                                Are you a leak detection specialist in Boonton NJ? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local slab leak leads.
+                                Are you a repipe specialist in Boonton NJ? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local polybutylene replacement leads.
                             </p>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ const LeaseNumber = () => {
                                 <ul className="space-y-6">
                                     {[
                                         "Replace (877) 792-1410 with your direct line",
-                                        "All Boonton slab leak inquiries route to you",
-                                        "Dominant SEO presence for Boonton foundation leaks",
+                                        "All Boonton repipe inquiries route to you",
+                                        "Dominant SEO presence for Boonton PB pipes",
                                         "One specialist per territory — exclusive deal",
                                         "Simple month-to-month billing",
                                         "No setup fees or long-term contracts",
@@ -81,9 +81,9 @@ const LeaseNumber = () => {
                                 </div>
                             </div>
 
-                            <div className="relative z-10 space-y-4">
+                            <div className="relative z-10 space-y-4 text-nowrap">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Boonton Slab Leak Specialist - Phone Lease Inquiry $19/mo"
+                                    href="mailto:leasemynumber@gmail.com?subject=Boonton Repipe Specialist - Phone Lease Inquiry $19/mo"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-white text-indigo-700 hover:bg-slate-100 px-8 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl active:scale-95"
                                 >
                                     <Mail className="w-5 h-5" />

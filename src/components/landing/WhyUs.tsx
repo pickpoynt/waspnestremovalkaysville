@@ -2,24 +2,24 @@ import { ShieldCheck, Clock, Award, Hammer, Wrench, Shield, Search, Zap, Target,
 
 const features = [
   {
-    icon: Radio,
-    title: "Non-Invasive Locating",
-    description: "We use acoustic and thermal sensors to find leaks without Jackhammering. We protect your Boonton home's aesthetic and structural integrity."
+    icon: ShieldCheck,
+    title: "Transferable Warranty",
+    description: "Our Boonton repipes come with a lifetime pipe warranty and a 10-year labor guarantee, fully transferable to future homeowners."
   },
   {
-    icon: Thermometer,
-    title: "Thermal Precision",
-    description: "Our infrared cameras detect even the smallest temperature drops under 6 inches of concrete, ensuring we only open the floor exactly where needed."
+    icon: Search,
+    title: "Free PB Inspections",
+    description: "Not sure if you have the 'gray pipe'? We offer free visual inspections for all Boonton residents to identify polybutylene risk."
+  },
+  {
+    icon: Zap,
+    title: "48-Hour Completion",
+    description: "Most residential repipes in Boonton are completed in just 2 days, ensuring minimal interruption to your family's routine."
   },
   {
     icon: Shield,
-    title: "Slab Protection Policy",
-    description: "We understand Boonton's specific soil conditions and foundation styles. Our repairs are engineered to satisfy both engineers and insurers."
-  },
-  {
-    icon: ShieldCheck,
-    title: "Insurance Assistance",
-    description: "Slab leaks are complex. We provide detailed forensic reports and digital proof of loss to help you navigate your Boonton homeowners insurance claim."
+    title: "NJ Code Specialists",
+    description: "We handle all Boonton permits and inspections, ensuring your new PEX system is 100% compliant with Morris County regulations."
   }
 ];
 
@@ -29,11 +29,11 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Advanced <span className="text-indigo-600 border-b-4 border-indigo-600/20">Slab Detection</span> <br />
-            Specialists in Boonton NJ
+            Boonton's <span className="text-indigo-600 border-b-4 border-indigo-600/20">Repipe Experts</span> <br />
+            Certified PB Replacement
           </h2>
           <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto italic">
-            Providing Boonton homeowners with a scientific approach to leak detection. We find what others miss, saving your foundation from costly settlement issues.
+            We've helped hundreds of Boonton homeowners transition away from polybutylene. Our experience ensures a smooth, non-invasive process that adds value to your property.
           </p>
         </div>
 
@@ -41,29 +41,29 @@ const WhyUs = () => {
           <div className="relative text-center">
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl opacity-50" />
             <img
-              src="/2.jpeg"
-              alt="Professional Slab Leak Detection in Boonton NJ"
+              src="/1.jpeg"
+              alt="Polybutylene Pipe Replacement Specialists in Boonton NJ"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
             />
             <div className="absolute -bottom-8 -right-8 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl z-20 border border-indigo-500 max-w-[240px]">
-              <p className="text-4xl font-bold mb-1 uppercase tracking-tighter">100%</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest leading-tight">Detection Accuracy in Boonton</p>
+              <p className="text-4xl font-bold mb-1 uppercase tracking-tighter">PEX-A</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest leading-tight">The Modern Standard for Boonton Repiping</p>
             </div>
           </div>
 
           <div className="space-y-8">
             {[
               {
-                title: "Electronic Pipe Tracing",
-                desc: "We map out your entire Boonton property's plumbing system digitally before we start, ensuring we understand the exact path of your pipes."
+                title: "Expert Drywall Restoration",
+                desc: "We don't just fix pipes; we repair the walls. Our Boonton team includes master patchers who leave your home looking like we were never there."
               },
               {
-                title: "Non-Destructive Testing",
-                desc: "Our methods allow your family to stay in the home while we work. No massive dust clouds or unnecessary foundation demolition in your Boonton residence."
+                title: "Premium PEX-A Systems",
+                desc: "We exclusively use PEX-A for Boonton projects—the most flexible and freeze-resistant piping available on the market today."
               },
               {
-                title: "Certified Leak Experts",
-                desc: "Every technician is specifically trained in Boonton's regional plumbing codes and modern leak detection physics, not just basic plumbing."
+                title: "Insurance Proof of Repipe",
+                desc: "We provide the specific 'Certificate of Repipe' that Boonton insurance carriers require to restore coverage or lower premiums."
               }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 group">
@@ -80,8 +80,8 @@ const WhyUs = () => {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Suspect a Slab Leak?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Boonton's Experts</h4>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Concerned about PB Pipes?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left text-nowrap">Call Boonton Specialists</h4>
                 </div>
                 <a
                   href="tel:8777921410"

@@ -2,139 +2,124 @@ import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, DollarSi
 
 const faqs = [
   {
-    icon: Search,
-    question: "How much does a leak detection specialist cost?",
-    answer: "Boonton specialists typically charge between $250 and $550 for a professional residential leak detection session, depending on the complexity of the slab."
-  },
-  {
     icon: DollarSign,
-    question: "How much does it cost to have a leak detected?",
-    answer: "Most local Boonton services offer a flat rate for initial acoustic and thermal detection, usually starting around $299 for single-family homes."
-  },
-  {
-    icon: AlertCircle,
-    question: "Is a slab leak expensive to fix?",
-    answer: "Repair costs range from $1,500 to $5,000+. The cost is highly dependent on whether you choose direct access repair or a localized reroute in Boonton."
-  },
-  {
-    icon: Radio,
-    question: "How to detect water leak under concrete slab?",
-    answer: "Professional detection in Boonton involves electronic amplification, tracer gases, and infrared thermal imaging to see heat plumes under the foundation."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Does home insurance cover leak detection?",
-    answer: "Often, yes. While the pipe repair itself might not be covered, the 'cost of access' (leak detection and opening the slab) frequently is in Boonton policies."
-  },
-  {
-    icon: Search,
-    question: "How do plumbers find hidden leaks?",
-    answer: "Standard Boonton plumbers may guess, but specialists use high-frequency sonar and line-tracing technology to find the leak with zero demolition."
-  },
-  {
-    icon: FileText,
-    question: "Will insurance pay for a slab leak?",
-    answer: "Most Boonton insurers pay for the resulting water damage and the access costs, but the actual plumbing pipe repair is typically the homeowner's responsibility."
-  },
-  {
-    icon: Wrench,
-    question: "How do plumbers fix a slab leak?",
-    answer: "Common methods in Boonton include 'spot repair' (jackhammering a small area) or 'rerouting' (bypassing the underground pipe with new lines in the walls)."
-  },
-  {
-    icon: Clock,
-    question: "How urgent is a slab leak?",
-    answer: "Extremely urgent. Continuous water flow erodes the soil under your Boonton home, leading to foundation cracks, settlement, and structural failure."
-  },
-  {
-    icon: Activity,
-    question: "How common are slab leaks?",
-    answer: "In Boonton homes built before 1990, slab leaks are very common due to decaying copper pipes and aggressive NJ soil minerals."
-  },
-  {
-    icon: DollarSign,
-    question: "Will insurance pay out for water damage?",
-    answer: "Yes, provided the leak was 'sudden and accidental' and not due to decades of neglected maintenance in your Boonton property."
-  },
-  {
-    icon: Hammer,
-    question: "How much does it cost to replace pipes under concrete slab?",
-    answer: "Replacing several linear feet of pipe can cost $2,000-$4,500. A full reroute of the kitchen or bath loop is often more cost-effective long-term."
-  },
-  {
-    icon: Search,
-    question: "How much will a plumber charge to find a leak?",
-    answer: "Expect a professional detection service in Boonton to charge a service fee of $300-$500 for a thorough foundation assessment."
-  },
-  {
-    icon: ShieldCheck,
-    question: "Does home insurance cover water leaks?",
-    answer: "Standard Boonton policies cover 'sudden' leaks. They rarely cover slow, long-term leaks that occurred due to poor maintenance or age."
-  },
-  {
-    icon: Target,
-    question: "What is the best DIY leak detection method?",
-    answer: "The meter test: Turn off all water in your Boonton home and check the main water meter. If the dial is still spinning, you have an active leak."
-  },
-  {
-    icon: Info,
-    question: "Are slab leaks covered by a home warranty?",
-    answer: "Many Boonton home warranties cover the repair and detection of slab leaks, though limits and deductibles usually apply."
-  },
-  {
-    icon: TrendingUp,
-    question: "Is it worth going through insurance for water damage?",
-    answer: "If damage exceeds your deductible, yes. Slab leaks often cause hidden mold and structural settlement that requires professional remediation."
-  },
-  {
-    icon: Thermometer,
-    question: "How to check if you have a slab leak?",
-    answer: "Watch for warm spots on the floor, higher than normal water bills, sound of running water when off, or unexplained damp spots in your Boonton home."
+    question: "How much does it cost to Repipe polybutylene pipes?",
+    answer: "Repiping a standard Boonton home ranges from $3,500 to $12,000, depending on house size, bathroom count, and whether PEX or copper is used."
   },
   {
     icon: Home,
-    question: "Will homeowners cover a slab leak?",
-    answer: "Coverage varies by carrier in Boonton. Most 'Open Perils' policies cover the access and the damage, but not the physical copper pipe fix."
-  },
-  {
-    icon: Search,
-    question: "What are the signs of a hidden slab leak?",
-    answer: "A spinning water meter, low water pressure, mold on baseboards, or a hot water heater that never stops running in your Boonton residence."
-  },
-  {
-    icon: Clock,
-    question: "How long do slab leaks take to repair?",
-    answer: "Detection takes 1-3 hours. The physical repair or reroute for a Boonton home typically takes 1 to 2 days to complete fully."
-  },
-  {
-    icon: Shield,
-    question: "What is the best way to fix a slab leak?",
-    answer: "For older Boonton homes, a reroute (bypassing the slab) is the most permanent and least invasive solution for future-proofing."
-  },
-  {
-    icon: Info,
-    question: "How common is a slab leak?",
-    answer: "Statistics show that homes with older copper plumbing have a 25% chance of developing a slab leak over a 20-year period."
-  },
-  {
-    icon: Zap,
-    question: "Should I repipe instead of repairing a slab leak?",
-    answer: "If your Boonton home has had more than one slab leak, a full repipe is highly recommended to prevent recurring foundation damage."
-  },
-  {
-    icon: DollarSign,
-    question: "How much to charge for leak detection?",
-    answer: "Specialists in the Morris County area typically bill a flat fee of $350 for standard residential foundation leak locating."
-  },
-  {
-    icon: Waves,
-    question: "What is the best solution for slab leakage?",
-    answer: "Precision detection followed by a modern PEX reroute is the industry-standard solution for permanent Boonton home protection."
+    question: "Can you sell a house with polybutylene pipes?",
+    answer: "Yes, but Boonton buyers often demand credits or replacement before closing due to their high risk. Disclosure is mandatory in NJ."
   },
   {
     icon: AlertCircle,
-    question: "What are the long-term costs of ignoring a slab leak?",
-    answer: "Ignoring a leak leads to foundation heave, mold growth, warped floors, and eventual structural condemnation of your Boonton property."
+    question: "Should polybutylene pipes be replaced?",
+    answer: "Absolutely. In Boonton, PB pipes are known to fail without warning, often leading to foundation damage. Proactive replacement is highly recommended."
+  },
+  {
+    icon: Zap,
+    question: "What do you replace polybutylene pipe with?",
+    answer: "The gold standard in Boonton is PEX-A expansion piping. It is flexible, freeze-resistant, and significantly more durable than the original PB lines."
+  },
+  {
+    icon: ShieldCheck,
+    question: "Will insurance cover replacing polybutylene pipes?",
+    answer: "Standard Boonton insurance rarely covers the cost of proactive replacement. However, they may cover the water damage resulting from a sudden burst."
+  },
+  {
+    icon: Info,
+    question: "Should I buy a house with polybutylene pipe near?",
+    answer: "You should factor the cost of a full repipe into your offer. Many Boonton buyers use a professional quote to negotiate the home price down."
+  },
+  {
+    icon: Wrench,
+    question: "What do you do if your house has polybutylene pipes?",
+    answer: "Schedule a professional inspection in Boonton immediately to assess the condition of the fittings and start a repiping plan to mitigate risk."
+  },
+  {
+    icon: Clock,
+    question: "What is the life expectancy of polybutylene pipes?",
+    answer: "Polybutylene pipes typically last 10 to 15 years before the internal breakdown starts. Most PB systems in Boonton are now well beyond their safe lifespan."
+  },
+  {
+    icon: TrendingUp,
+    question: "What decreases property value the most?",
+    answer: "Major structural and systemic issues like defective PB plumbing decrease Boonton home values and make houses much harder to sell."
+  },
+  {
+    icon: Search,
+    question: "Do 100 year old houses have lead pipes?",
+    answer: "Many historic Boonton homes may still have lead service lines or lead solder, which should be assessed alongside any other piping issues."
+  },
+  {
+    icon: Shield,
+    question: "What is the 135 rule in plumbing?",
+    answer: "This refers to drainage slope calculations; however, in repiping Boonton homes, we focus on maintaining proper pressure and flow for modern fixtures."
+  },
+  {
+    icon: FileText,
+    question: "Do I need to disclose polybutylene pipes when selling?",
+    answer: "Yes, NJ law requires disclosure of known material defects. Failing to disclose PB pipes in Boonton can lead to legal liability after the sale."
+  },
+  {
+    icon: DollarSign,
+    question: "Can I use my homeowners insurance for plumbing repairs?",
+    answer: "Insurance typically covers the damage caused by a leak, but the specialized repair of a defective pipe system like PB is generally the owner's cost."
+  },
+  {
+    icon: AlertCircle,
+    question: "What is the lawsuit for PB pipes?",
+    answer: "There were major class-action settlements (like Cox v. Shell) for PB pipe failure, though most claim deadlines have long since passed for Boonton owners."
+  },
+  {
+    icon: ShieldCheck,
+    question: "Is polybutylene pipe up to code?",
+    answer: "Polybutylene was removed from the IPC plumbing code in the late 90s. While 'grandfathered' in some cases, it is no longer allowed for new Boonton construction."
+  },
+  {
+    icon: Home,
+    question: "Can I sell my home with polybutylene pipes?",
+    answer: "You can, but be prepared for Boonton home inspectors to flag it as a major concern, potentially leading to mortgage approval issues for the buyer."
+  },
+  {
+    icon: Zap,
+    question: "How to transition from polybutylene to PVC?",
+    answer: "Transitions require specialized 'PB to PEX' adapter kits. Our Boonton team ensures these connections meet code using the correct mechanical fittings."
+  },
+  {
+    icon: TrendingUp,
+    question: "Is it worth replacing polybutylene pipes?",
+    answer: "Yes. The cost of a full repipe is much lower than the cost of water remediation, mold removal, and foundation repair in a Boonton home."
+  },
+  {
+    icon: Search,
+    question: "Is it worth replacing lead water pipes?",
+    answer: "Absolutely. Lead pipes pose serious health risks. In Boonton, replacing lead service lines is a top priority for family health and safety."
+  },
+  {
+    icon: Wrench,
+    question: "What is the best replacement for polybutylene pipes?",
+    answer: "PEX (Cross-linked Polyethylene) is the industry's top choice in Boonton for its flexibility, durability, and resistance to chlorine-based breakdown."
+  },
+  {
+    icon: Clock,
+    question: "What is the lifespan of polybutylene pipes?",
+    answer: "In Boonton's municipal water systems, PB pipes often fail internally long before their 25-year design lifespan due to chlorine sensitivity."
+  },
+  {
+    icon: Shield,
+    question: "Will homeowners insurance cover polybutylene pipe?",
+    answer: "Insurance generally excludes coverage for the pipes themselves once identified as PB, though they may cover the water damage from a single event."
+  },
+  {
+    icon: DollarSign,
+    question: "What not to fix before selling your house?",
+    answer: "Cosmetic minor issues can be skipped, but systemic failures like polybutylene pipes are 'deal-breakers' in the Boonton real estate market."
+  },
+  {
+    icon: Target,
+    question: "What to do if you have polybutylene pipes?",
+    answer: "Turn off your main water valve when leaving for vacation and contact a Boonton repipe specialist to get a quote for a permanent PEX upgrade."
   }
 ];
 
@@ -155,13 +140,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-black uppercase tracking-[0.2em] mb-4">
-            Leak Knowledge Base
+            Repipe Knowledge Base
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Slab Leak <span className="text-indigo-600 border-b-4 border-indigo-600/20">Detection FAQ</span>
+            Polybutylene <span className="text-indigo-600 border-b-4 border-indigo-600/20">Pipe FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-bold italic">
-            Essential information for Boonton homeowners about foundation leaks, insurance coverage, and professional detection methods.
+            Essential information for Boonton homeowners dealing with polybutylene (PB) pipe replacement, insurance, and real estate disclosures.
           </p>
         </div>
 
@@ -172,7 +157,7 @@ const FAQ = () => {
         </div>
 
         <div className="mt-20 text-center">
-          <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-4">Still have foundation questions?</p>
+          <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-4">Still have repiping questions?</p>
           <a href="tel:8777921410" className="inline-flex items-center gap-3 text-indigo-600 font-black text-2xl hover:text-slate-900 transition-colors uppercase tracking-tight">
             <Phone className="w-6 h-6" />
             (877) 792-1410

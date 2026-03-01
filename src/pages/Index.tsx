@@ -15,19 +15,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>slab leak detection specialist boonton (877) 792-1410 | Boonton Slab Leak Detection Pros</title>
-        <meta name="description" content="Professional slab leak detection specialist boonton. (877) 792-1410. Expert thermal imaging, acoustic detection, and precision slab leak repair in Boonton, NJ." />
-        <meta name="keywords" content="slab leak detection specialist boonton, boonton NJ slab leak repair, water leak detection Boonton, concrete slab leak Boonton, foundation leak repair Boonton NJ" />
-        <link rel="canonical" href="https://slableakdetectionspecialistboonton.vercel.app/" />
+        <title>polybutylene pipe replacement boonton (877) 792-1410 | Boonton Repipe Pros</title>
+        <meta name="description" content="Professional polybutylene pipe replacement boonton. (877) 792-1410. Expert whole-house repiping, PEX installation, and NJ code compliance. Free Boonton estimates." />
+        <meta name="keywords" content="polybutylene pipe replacement boonton, boonton NJ repipe specialists, blue pipe replacement Boonton, PB pipe lawsuit Boonton, plumbing repipe Boonton NJ" />
+        <link rel="canonical" href="https://polybutylenepipereplacementboonton.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Boonton Slab Leak Detection Pros",
+            "name": "Boonton Repipe Pros",
             "image": "/4.jpeg",
-            "@id": "https://slableakdetectionspecialistboonton.vercel.app/",
-            "url": "https://slableakdetectionspecialistboonton.vercel.app/",
+            "@id": "https://polybutylenepipereplacementboonton.vercel.app/",
+            "url": "https://polybutylenepipereplacementboonton.vercel.app/",
             "telephone": "(877) 792-1410",
             "address": {
               "@type": "PostalAddress",
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Detection and Repair",
+            "serviceType": "Polybutylene Pipe Replacement",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Boonton Slab Leak Detection Pros"
+              "name": "Boonton Repipe Pros"
             },
             "areaServed": {
               "@type": "City",
@@ -66,21 +66,21 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Leak Detection Services",
+              "name": "Repiping Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acoustic Leak Detection" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Imaging Leak Detection" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Slab Leak Repair" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Water Leak Detection" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole House Repiping" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Polybutylene to PEX Transition" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plumbing System Assessment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Main Replacement" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="slab leak detection specialist boonton (877) 792-1410 | Boonton Slab Leak Detection Pros" />
-        <meta property="og:description" content="Expert slab leak detection in Boonton, NJ. Professional thermal imaging and acoustic detection. Call (877) 792-1410!" />
+        <meta property="og:title" content="polybutylene pipe replacement boonton (877) 792-1410 | Boonton Repipe Pros" />
+        <meta property="og:description" content="Expert polybutylene pipe replacement in Boonton, NJ. Professional PEX repiping. Call (877) 792-1410!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://slableakdetectionspecialistboonton.vercel.app/" />
+        <meta property="og:url" content="https://polybutylenepipereplacementboonton.vercel.app/" />
         <meta property="og:image" content="/4.jpeg" />
       </Helmet>
 
@@ -89,19 +89,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              SLAB LEAK DETECTION <br />
-              <span className="text-white drop-shadow-sm uppercase">in BOONTON NJ</span>
+              POLYBUTYLENE PIPE <br />
+              <span className="text-white drop-shadow-sm uppercase">REPLACEMENT IN BOONTON</span>
             </>
           }
-          subtitle="Boonton's premier specialists in precision slab leak detection and non-invasive repair. Using advanced acoustic technology and thermal imaging, we locate underground water leaks with surgical accuracy to protect your Boonton home's foundation."
+          subtitle="Boonton's certified specialists in whole-house polybutylene (PB) pipe replacement. We eliminate the risk of catastrophic flooding by upgrading your aging NJ plumbing with modern, durable PEX systems. Protect your Boonton property value and peace of mind today."
           image="/4.jpeg"
           overlayImage="/2.jpeg"
-          badge="BOONTON SLAB LEAK EXPERTS"
+          badge="BOONTON REPIPE SPECIALISTS"
           phone="8777921410"
           features={[
-            { icon: Search, text: "Acoustic Detection" },
-            { icon: Target, text: "Precision Locating" },
-            { icon: ShieldCheck, text: "Non-Invasive Repair" }
+            { icon: Search, text: "PB Identification" },
+            { icon: Target, text: "Non-Invasive PEX" },
+            { icon: ShieldCheck, text: "Lifetime Warranty" }
           ]}
         />
         <Services />
@@ -114,10 +114,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pipe leak repair cost in Modesto</a>
+              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Leaking pipe repair in Modesto</a>
+              <a href="https://slableakdetectionspecialistboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Boonton slab leak detection</a>
+              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Water heater repair Beaverton</a>
               <a href="https://castironpipereplacementboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Boonton cast iron pipe replacement</a>
-              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Sewer repair options in Scottsdale AZ</a>
-              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Water heater repair Beaverton OR</a>
             </div>
           </div>
         </section>

@@ -15,11 +15,11 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Boonton</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Slab Leak Experts</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Repiping Specialists</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-bold italic text-sm">
-              Boonton's specialized team for non-invasive <br /> foundation leak detection and precision <br /> localized repair. Certified experts.
+              Boonton's certified team for <br /> whole-house polybutylene pipe <br /> replacement and PEX-A upgrades. <br /> Professional restoration.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,14 +31,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Service Area</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Repiping Services</h4>
             <ul className="space-y-4">
               {[
-                "Electronic Leak Detection",
-                "Thermal Imaging Scans",
-                "Slab Repair Specialists",
-                "Foundation Protection",
-                "Water Line Rerouting",
+                "Polybutylene Identification",
+                "Whole House Repiping",
+                "PEX-A Plumbing Systems",
+                "Water Main Replacement",
+                "Drywall Restoration",
                 "Hydrostatic Testing"
               ].map((item) => (
                 <li key={item}>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Specialist NAP</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Repipe Specialist NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -87,18 +87,18 @@ const Footer = () => {
           <div>
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Industry Standard</h4>
             <p className="text-slate-400 text-xs leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Utilizing professional-grade <br /> acoustic and infrared <br /> sensors to prevent Boonton homeowners from settlement issues.
+              Exclusively using PEX-A <br /> expansion systems for <br /> long-term reliability in <br /> all Boonton repiping projects.
             </p>
             <div className="p-6 bg-white/5 rounded-3xl border border-white/10 shadow-inner">
               <p className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Precision Detection Guaranteed Across Every Morris County Project.</p>
+              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Lifetime Plumbing Integrity Guaranteed Across Boonton.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 uppercase tracking-[0.2em] text-[10px] font-black">
           <p className="text-slate-600 text-center md:text-left">
-            © {new Date().getFullYear()} Boonton Slab Leak Detection Specialists. <br className="md:hidden" /> All rights reserved. Precision Foundation Locating.
+            © {new Date().getFullYear()} Boonton Polybutylene Pipe Replacement Pros. <br className="md:hidden" /> All rights reserved. Certified Repiping Solutions.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">

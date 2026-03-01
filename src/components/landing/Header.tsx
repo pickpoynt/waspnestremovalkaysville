@@ -18,7 +18,7 @@ const Header = () => {
       <div className="lg:hidden fixed top-0 left-0 right-0 z-[60] bg-indigo-600 text-white py-3 px-4 flex justify-between items-center shadow-md">
         <div className="flex items-center gap-2">
           <ShieldCheck className="w-5 h-5" />
-          <span className="font-bold text-xs uppercase tracking-tight">Boonton Slab Leak Pros</span>
+          <span className="font-bold text-xs uppercase tracking-tight text-nowrap">Boonton Repipe Pros</span>
         </div>
         <a href="tel:8777921410" className="flex items-center gap-2 bg-white text-indigo-600 px-4 py-1.5 rounded-full font-bold text-xs animate-pulse">
           <Phone className="w-3.5 h-3.5" />
@@ -29,16 +29,16 @@ const Header = () => {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-blue-50" : "bg-transparent py-6"} ${"lg:block hidden"}`}>
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 group cursor-pointer text-nowrap">
               <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-indigo-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
                 <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
               </div>
-              <div>
+              <div className="text-nowrap">
                 <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
                   Boonton
                 </span>
                 <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                  Slab Leak <span className="text-[10px] opacity-70 px-1 text-nowrap">Specialists</span>
+                  Repipe <span className="text-[10px] opacity-70 px-1 text-nowrap">Specialists</span>
                 </span>
               </div>
             </div>
@@ -56,11 +56,11 @@ const Header = () => {
 
             <div className="hidden lg:flex items-center gap-6">
               <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 LEAK HOTLINE</p>
+                <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">EMERGENCY HOTLINE</p>
                 <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">(877) 792-1410</a>
               </div>
               <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-                <a href="tel:8777921410">Book Call</a>
+                <a href="tel:8777921410">Book Inspection</a>
               </Button>
             </div>
 
@@ -77,7 +77,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-8 h-8 text-indigo-500" />
-              <span className="font-bold text-white text-sm uppercase">Boonton Slab Leak</span>
+              <span className="font-bold text-white text-sm uppercase">Boonton Repipe Specialists</span>
             </div>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? <X className="w-8 h-8 text-white" /> : <Menu className="w-8 h-8 text-white" />}
@@ -93,7 +93,7 @@ const Header = () => {
               ))}
               <a href="/lease-my-number" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-4 border-b border-slate-800 uppercase" onClick={() => setIsMobileMenuOpen(false)}>Lease Number</a>
               <div className="pt-8">
-                <p className="text-slate-400 text-xs mb-2 uppercase tracking-widest font-bold">EMERGENCY LEAK HOTLINE</p>
+                <p className="text-slate-400 text-xs mb-2 uppercase tracking-widest font-bold">EMERGENCY REPIPE HOTLINE</p>
                 <a href="tel:8777921410" className="text-4xl font-bold text-indigo-400 block mb-8 underline decoration-indigo-600/30 underline-offset-8">(877) 792-1410</a>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 text-xl font-bold rounded-2xl shadow-xl shadow-indigo-900/40" asChild>
                   <a href="tel:8777921410">CLICK TO CALL NOW</a>
