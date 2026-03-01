@@ -9,38 +9,38 @@ import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
-import { ShieldCheck, Zap, Droplets, Target, Search } from "lucide-react";
+import { ShieldCheck, Bug, Target, Search, Zap } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>polybutylene pipe replacement boonton (877) 792-1410 | Boonton Repipe Pros</title>
-        <meta name="description" content="Professional polybutylene pipe replacement boonton. (877) 792-1410. Expert whole-house repiping, PEX installation, and NJ code compliance. Free Boonton estimates." />
-        <meta name="keywords" content="polybutylene pipe replacement boonton, boonton NJ repipe specialists, blue pipe replacement Boonton, PB pipe lawsuit Boonton, plumbing repipe Boonton NJ" />
-        <link rel="canonical" href="https://polybutylenepipereplacementboonton.vercel.app/" />
+        <title>centipedes treatment kapolei (323) 880-1224 | Kapolei Centipede Control Pros</title>
+        <meta name="description" content="Professional centipedes treatment kapolei. (323) 880-1224. Expert Hawaii pest control, centipede nest removal, and home protection. Free Kapolei estimates." />
+        <meta name="keywords" content="centipedes treatment kapolei, Hawaii centipede control, Kapolei pest control centipedes, centipede exterminator Kapolei, Hawaii centipede nest removal" />
+        <link rel="canonical" href="https://centipedestreatmentkapolei.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Boonton Repipe Pros",
+            "name": "Kapolei Centipede Control Pros",
             "image": "/4.jpeg",
-            "@id": "https://polybutylenepipereplacementboonton.vercel.app/",
-            "url": "https://polybutylenepipereplacementboonton.vercel.app/",
-            "telephone": "(877) 792-1410",
+            "@id": "https://centipedestreatmentkapolei.vercel.app/",
+            "url": "https://centipedestreatmentkapolei.vercel.app/",
+            "telephone": "(323) 880-1224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Boonton, NJ",
-              "addressLocality": "Boonton",
-              "addressRegion": "NJ",
-              "postalCode": "07005",
+              "streetAddress": "Kapolei, HI",
+              "addressLocality": "Kapolei",
+              "addressRegion": "HI",
+              "postalCode": "96707",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.9032",
-              "longitude": "-74.4074"
+              "latitude": "21.3358",
+              "longitude": "-158.0792"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,32 +55,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Polybutylene Pipe Replacement",
+            "serviceType": "Centipede Treatment and Control",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Boonton Repipe Pros"
+              "name": "Kapolei Centipede Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Boonton, NJ"
+              "name": "Kapolei, HI"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Repiping Services",
+              "name": "Centipede Control Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole House Repiping" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Polybutylene to PEX Transition" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plumbing System Assessment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Main Replacement" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Centipede Nest Removal" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior Perimeter Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Interior Centipede Control" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Preventative Pest Barrier" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="polybutylene pipe replacement boonton (877) 792-1410 | Boonton Repipe Pros" />
-        <meta property="og:description" content="Expert polybutylene pipe replacement in Boonton, NJ. Professional PEX repiping. Call (877) 792-1410!" />
+        <meta property="og:title" content="centipedes treatment kapolei (323) 880-1224 | Kapolei Centipede Control Pros" />
+        <meta property="og:description" content="Expert centipede treatment in Kapolei, HI. Professional Hawaii pest control solutions. Call (323) 880-1224!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://polybutylenepipereplacementboonton.vercel.app/" />
+        <meta property="og:url" content="https://centipedestreatmentkapolei.vercel.app/" />
         <meta property="og:image" content="/4.jpeg" />
       </Helmet>
 
@@ -89,19 +89,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              POLYBUTYLENE PIPE <br />
-              <span className="text-white drop-shadow-sm uppercase">REPLACEMENT IN BOONTON</span>
+              CENTIPEDE TREATMENT <br />
+              <span className="text-white drop-shadow-sm uppercase text-nowrap">IN KAPOLEI Hawaii</span>
             </>
           }
-          subtitle="Boonton's certified specialists in whole-house polybutylene (PB) pipe replacement. We eliminate the risk of catastrophic flooding by upgrading your aging NJ plumbing with modern, durable PEX systems. Protect your Boonton property value and peace of mind today."
+          subtitle="Kapolei's premier specialists in Hawaii centipede control and eradication. We use advanced, safe, and effective methods to protect your home from invasive centipede populations. Our localized treatments target nesting sites and create a lasting defensive barrier."
           image="/4.jpeg"
           overlayImage="/2.jpeg"
-          badge="BOONTON REPIPE SPECIALISTS"
-          phone="8777921410"
+          badge="KAPOLEI CENTIPEDE EXPERTS"
+          phone="3238801224"
           features={[
-            { icon: Search, text: "PB Identification" },
-            { icon: Target, text: "Non-Invasive PEX" },
-            { icon: ShieldCheck, text: "Lifetime Warranty" }
+            { icon: Search, text: "Nest Identification" },
+            { icon: Target, text: "Precision Targeting" },
+            { icon: ShieldCheck, text: "24/7 Home Barrier" }
           ]}
         />
         <Services />
@@ -111,13 +111,13 @@ const Index = () => {
         <FAQ />
 
         <section className="bg-white py-12 border-t text-center">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 text-nowrap">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Leaking pipe repair in Modesto</a>
-              <a href="https://slableakdetectionspecialistboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Boonton slab leak detection</a>
-              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Water heater repair Beaverton</a>
-              <a href="https://castironpipereplacementboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Boonton cast iron pipe replacement</a>
+              <a href="https://centipederepellenthawaii.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Centipede repellent Hawaii</a>
+              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Rodent control Corvallis Oregon</a>
+              <a href="https://earwigexterminatordenver.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Earwig exterminator Denver</a>
+              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pest control South Point Ohio</a>
             </div>
           </div>
         </section>

@@ -1,35 +1,35 @@
-import { ShieldCheck, Drill, Search, Clock, Zap, Target, Waves, Activity, Radio, Thermometer, Shield, Droplets } from "lucide-react";
+import { ShieldCheck, Bug, Search, Clock, Zap, Target, Waves, Activity, Radio, Thermometer, Shield, Droplets } from "lucide-react";
 
 const services = [
   {
     icon: Search,
-    title: "PB Pipe Identification",
-    description: "Our Boonton specialists conduct thorough inspections to identify gray polybutylene pipes, checking stamps, fittings, and site history to confirm risk levels."
+    title: "Centipede Nest Location",
+    description: "Our Kapolei specialists are trained to identify Hawaii centipede nesting sites in damp areas, soil, and structural voids to ensure complete colony elimination."
   },
   {
     icon: Target,
-    title: "Whole-House Repiping",
-    description: "Complete removal of all PB lines in your Boonton home, replaced with industry-leading PEX-A expansion systems for maximum reliability and water flow."
+    title: "Perimeter Defense Barrier",
+    description: "We create a high-potency chemical and physical barrier around your Kapolei home, preventing invasive centipedes from ever crossing your threshold."
+  },
+  {
+    icon: Bug,
+    title: "Interior Eradication",
+    description: "Advanced, low-toxicity treatments inside your Kapolei residence to eliminate existing pests while keeping your family and pets safe."
   },
   {
     icon: Shield,
-    title: "Code Compliance Updates",
-    description: "We ensure your new plumbing system meets all current Boonton and NJ building codes, providing the necessary documentation for home sales and insurance."
-  },
-  {
-    icon: Drill,
-    title: "Non-Invasive Installation",
-    description: "Using surgical access points, we minimize drywall damage in your Boonton residence, often completing a full repipe with only small, easily patchable holes."
+    title: "Preventative Maintenance",
+    description: "Recurring service plans in Kapolei to maintain your home's defenses throughout Hawaii's high-moisture seasons when centipede activity peaks."
   },
   {
     icon: Droplets,
-    title: "Water Main Replacement",
-    description: "If your exterior polybutylene service line is leaking, we provide trenchless replacement options to protect your Boonton landscaping."
+    title: "Moisture Control",
+    description: "Centipedes love Kapolei's humid climate. We provide drainage and moisture remediation advice to make your property less attractive to pests."
   },
   {
     icon: Activity,
-    title: "Full System Certification",
-    description: "Every Boonton repipe includes a full hydrostatic pressure test and a written certification of pipe replacement for your property records."
+    title: "Rapid Response Service",
+    description: "Spotted a centipede in your Kapolei house? We offer priority scheduling to address immediate infestations and restore your peace of mind."
   }
 ];
 
@@ -37,12 +37,12 @@ const Services = () => {
   return (
     <section id="services" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight text-nowrap">
-            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">Polybutylene Replacement Boonton</span>
+        <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
+            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipedes Treatment Kapolei</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Protecting Boonton homes from the "gray pipe" epidemic. We provide permanent solutions with professional PEX repiping that eliminates the risk of sudden plumbing failure.
+            Specialized Hawaii pest control targeting the islands' most resilient centipedes. We provide permanent solutions that protect Kapolei families from painful stings.
           </p>
         </div>
 
