@@ -113,7 +113,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero
-          title={<>Advanced <br /><span className="text-indigo-600">{primaryKeyword}</span></>}
+          title={<><span className="text-indigo-600">{primaryKeyword}</span></>}
           subtitle="Brooksville's leading wasp control specialists. We provide rapid-response, mechanical and chemical solutions that secure your property without delay. Available 24/7 for all stinging insect emergencies."
           badge="BROOKSVILLE WASP PROS"
           phone="3238801224"
