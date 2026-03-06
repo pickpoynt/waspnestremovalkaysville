@@ -1,12 +1,12 @@
 const links = [
-  { text: "Emergency Wasp Removal Brooksville", url: "https://emergencywaspremovalbrooksvillefl.vercel.app/" },
-  { text: "No Tent Termite Treatment Brooksville", url: "https://notenttermitetreatmentbrooksvillefl.vercel.app/" },
-  { text: "Plumber Stone Oak", url: "https://plumberstoneoak.vercel.app/" },
-  { text: "Polybutylene Pipe Replacement Boonton", url: "https://polybutylenepipereplacementboonton.vercel.app/" },
-  { text: "Slab Leak Detection Boonton", url: "https://slableakdetectionspecialistboonton.vercel.app/" },
-  { text: "Brown Recluse Pest Control Nashville", url: "https://brownreclusepestcontrolnashville.vercel.app/" },
-  { text: "Mold Remediation Eau Claire WI", url: "https://moldremediationeauclairewi.vercel.app/" },
-  { text: "Chipmunk Removal Brooksville FL", url: "https://chipmunkremovalbrooksvillefl.vercel.app/" }
+  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Wildlife Removal Gastonia NC", url: "https://wildliferemovalgastonianc.vercel.app/" },
+  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
+  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
+  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
+  { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
+  { text: "Gopher Control Frankenmuth MI", url: "https://gophercontrolfrankenmuthmi.vercel.app/" }
 ];
 
 const RandomLinks = () => {

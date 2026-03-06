@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ArrowRight, ShieldCheck, Zap, Microscope, Wind } from "lucide-react";
+import { Phone, ArrowRight, ShieldCheck, Zap, Bug, Home } from "lucide-react";
 
 interface HeroProps {
   title?: React.ReactNode;
@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Toxic Black Mold Cleanup Brevard NC",
-  subtitle = "Brevard's premier specialists in toxic black mold cleanup. We provide advanced mold removal techniques that restore air quality and protect your property from dangerous mold growth in the heart of Transylvania County.",
-  image = "/1.jpeg",
-  overlayImage = "/2.jpeg",
-  phone = "3802660944",
-  badge = "BREVARD BLACK MOLD PROS",
+  title = "Rodent Removal Kaysville",
+  subtitle = "Kaysville's premier specialists in professional rodent removal. We provide advanced rat and mouse control techniques that protect your property and restore your peace of mind in the heart of Utah.",
+  image = "/2.jpeg",
+  overlayImage = "/4.jpeg",
+  phone = "3238801224",
+  badge = "KAYSVILLE RODENT PROS",
   features = [
-    { icon: Microscope, text: "Toxicity Testing" },
-    { icon: Wind, text: "HEPA Filtration" },
-    { icon: ShieldCheck, text: "Full Remediation" }
+    { icon: ShieldCheck, text: "Full Extraction" },
+    { icon: Bug, text: "Rodent Proofing" },
+    { icon: Zap, text: "Rapid Response" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

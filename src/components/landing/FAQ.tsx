@@ -2,160 +2,100 @@ import { Bug, Phone, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "How much does it cost to have a hornets nest removed?",
-    answer: "Professional hornet nest removal typically costs between $150 and $450, depending on the accessibility of the nest, its size, and the species' aggression level."
+    question: "How much should rat pest control cost?",
+    answer: "Professional rat control typically ranges from $200 to $600 for initial treatment and structural proofing depending on the severity."
   },
   {
-    question: "Can I remove a hornets nest myself?",
-    answer: "Technical DIY removal is highly discouraged and dangerous. Hornets are extremely protective and can sting multiple times, leading to severe medical emergencies."
+    question: "Is rodent service worth it?",
+    answer: "Yes, professional service prevents structural damage, fire hazards from chewed wires, and serious health risks to your family."
   },
   {
-    question: "How do professionals get rid of wasp nests?",
-    answer: "Professionals use specialized protective gear, high-pressure residual aerosols, and technical extraction tools to neutralize the colony and remove the physical nest structure."
+    question: "What do exterminators use to get rid of rodents?",
+    answer: "Exterminators use a combination of industrial-grade traps, rodenticides in secure stations, and exclusionary materials like steel wool."
   },
   {
-    question: "Are there sinkholes in Brooksville, FL?",
-    answer: "Yes, Brooksville and Hernando County are located in 'Sinkhole Alley'. While we focus on hornet removal, residents should remain aware of local geological conditions."
+    question: "Does Utah have a rat problem?",
+    answer: "Yes, Utah, including Kaysville, faces significant challenges with Norway rats and roof rats, especially in suburban areas."
   },
   {
-    question: "What is the best time of year to remove a hornets nest?",
-    answer: "Early spring is ideal when the queen is starting the nest alone. By late summer, nests are at maximum capacity and highly aggressive."
+    question: "What is the cheapest way to get rid of rats?",
+    answer: "DIY trapping is cheapest, but often fails to address the root cause, leading to recurring infestations and higher long-term costs."
   },
   {
-    question: "How much does Terminix charge to remove a wasp nest?",
-    answer: "Terminix and other national providers generally charge between $150 and $300 for a one-time stinging insect removal service."
+    question: "What are three signs that you have a rat infestation?",
+    answer: "Common signs include droppings, gnaw marks on wood or wires, and scurrying noises in walls or attics at night."
   },
   {
-    question: "Can I just leave a hornets nest alone?",
-    answer: "If the nest is far from human activity, it can be left. However, if it's near entry points, eaves, or play areas, professional removal is recommended for safety."
+    question: "What gets rid of mice permanently?",
+    answer: "Permanent removal requires total exclusion (sealing all entry points) combined with professional-grade trapping and sanitization."
   },
   {
-    question: "What does WD-40 do to wasps?",
-    answer: "WD-40 can kill wasps on contact by suffocating them, but it is not a technical tool for colony neutralization and poses a fire hazard if used incorrectly."
+    question: "What is the hardest pest to get rid of?",
+    answer: "Rodents are among the hardest due to their intelligence, rapid breeding cycles, and ability to fit through tiny structural openings."
   },
   {
-    question: "Will hornets return to a destroyed nest?",
-    answer: "No, hornets do not reuse old nests. However, the location may remain attractive for future queens if not properly treated with residual barriers."
+    question: "What time of night are rats most active?",
+    answer: "Rats are nocturnal and most active between dusk and dawn, specifically between 10 PM and 2 AM."
   },
   {
-    question: "How does an exterminator get rid of a hornets nest?",
-    answer: "Exterminators use knockdown agents for immediate control, followed by technical extraction of the nest and a residual treatment to prevent secondary scouting."
+    question: "How do the Amish get rid of mice?",
+    answer: "Traditional methods often include using natural predators like barn cats and maintaining strict sanitation and food storage protocols."
   },
   {
-    question: "Will wasps come back if you remove their nest?",
-    answer: "If the queen and workers are neutralized, they won't return. Professional removal includes barrier treatments specifically designed to prevent re-infestation."
+    question: "Does insurance cover rodent removal?",
+    answer: "Most standard homeowner insurance policies do not cover rodent removal or the damage they cause, as it's considered preventable maintenance."
   },
   {
-    question: "Does Terminix get rid of hornet nests?",
-    answer: "Yes, Terminix provides stinging insect control services, including hornet and wasp nest neutralization and removal."
+    question: "Does 2 mice mean an infestation?",
+    answer: "Yes, seeing two mice usually indicates a larger nesting population nearby, as they are social animals and breed extremely quickly."
   },
   {
-    question: "What destroys hornets' nest naturally?",
-    answer: "Natural decomposition occurrs in winter, and some birds or raccoons may occasionally attack nests for larvae, though natural destruction is unreliable for home safety."
+    question: "How to 100% get rid of mice?",
+    answer: "100% eradication requires a professional comprehensive plan: Identify sources, Trap existing population, Seal all entries, and Sanitize."
   },
   {
-    question: "What do hornets hate the most?",
-    answer: "Hornets are repelled by specific technical scents like peppermint oil, clove, and professional-grade residual repellents used in technical dispatch protocols."
+    question: "How much does Terminix charge to get rid of rats?",
+    answer: "National providers like Terminix typically charge between $250 and $500 for a one-time service, with ongoing plans costing more."
   },
   {
-    question: "What happens if you knock a hornets nest down?",
-    answer: "Knocking down an active nest will trigger an immediate, highly aggressive swarming response from the colony. Never attempt this without professional protection."
+    question: "How many visits does it take to get rid of rats?",
+    answer: "Complete eradication usually takes 2 to 4 visits over several weeks to ensure the entire colony has been eliminated."
   },
   {
-    question: "What time of day is best to remove a wasp nest?",
-    answer: "Late evening or early morning is technically best, as the majority of the colony is inside the nest and their activity levels are lower due to cooler temperatures."
+    question: "What is the 5 day mouse rule?",
+    answer: "Some experts suggest if no new activity is seen for 5 consecutive days after trapping, the immediate infestation may be cleared."
   },
   {
-    question: "What happens if you block up a wasp's nest?",
-    answer: "Blocking the entrance usually forces the wasps to chew a new exit, which often leads them directly into the interior of your home. Never block an active entrance."
+    question: "Does house insurance cover rodent?",
+    answer: "Generally no; insurance companies view rodent infestations as a maintenance issue rather than a sudden accidental loss."
   },
   {
-    question: "How much does it cost to hire a professional to remove a wasp nest?",
-    answer: "Standard professional removal fees generally range from $125 to $250 for easily accessible nests in residential areas."
+    question: "Do plug-in rodent repellers work?",
+    answer: "Scientific evidence on ultrasonic plug-ins is mixed; they may provide temporary relief but are rarely a long-term solution for established colonies."
   },
   {
-    question: "Do hornets return to the same nest every year?",
-    answer: "No, hornet colonies are annual. The nest is abandoned in the winter, and new queens start entirely new nests the following spring."
+    question: "What is the hardest pest to exterminate?",
+    answer: "Bed bugs and cockroaches are often cited as the hardest, but rodents are close behind due to their adaptability and breeding speed."
   },
   {
-    question: "What happens if you block off a bees nest?",
-    answer: "Like wasps, bees will find an alternative exit, often leading into the structure. Professional relocation or neutralization is required for safety."
+    question: "What is the number one killer to mice?",
+    answer: "Professional-grade snap traps and specialized rodenticides used by licensed technicians are the most effective lethal methods."
   },
   {
-    question: "What time of day are hornets most active?",
-    answer: "Hornets are most active during the warmest daylight hours when they are foraging for food and water to support the colony."
+    question: "What gets rid of rats permanently?",
+    answer: "Only a combination of professional trapping and 'built-out' exclusionary proofing can provide permanent results for your property."
   },
   {
-    question: "Where is sinkhole Alley in Florida?",
-    answer: "Sinkhole Alley primarily consists of Hernando, Pasco, and Hillsborough counties. Brooksville is situated directly within this high-risk geological zone."
+    question: "What time of year are rats most active?",
+    answer: "Rats remain active year-round but often increase indoor activity in autumn and winter as they seek warmth and food."
   },
   {
-    question: "Why are houses so cheap in Spring Hill, Florida?",
-    answer: "Property values in areas like Spring Hill can be influenced by the higher prevalence of sinkhole activity and the resulting technical insurance requirements."
+    question: "How much is orkin for rats?",
+    answer: "Orkin pricing varies by location and infestation severity but generally starts in the $300 to $500 range for initial corrective measures."
   },
   {
-    question: "What happened to the lady who fell into the sinkhole?",
-    answer: "There have been several documented local incidents of sinkhole collapses; such events highlight the importance of geological awareness for all Brooksville area residents."
-  },
-  {
-    question: "Can a hornet remember you?",
-    answer: "Scientific studies suggest some social wasps can recognize faces, making them potentially more persistent if they perceive you as a threat to the colony."
-  },
-  {
-    question: "Who is more powerful, a wasp or a hornet?",
-    answer: "Hornets are technically a type of wasp but are larger and possess more potent venom, making them generally more dangerous and 'powerful' in an encounter."
-  },
-  {
-    question: "Do wasps mourn their dead?",
-    answer: "Wasps do not have complex emotions like mourning. They respond to dead colony members as a technical sanitary issue, often removing bodies from the nest."
-  },
-  {
-    question: "What temperature do hornets go dormant at?",
-    answer: "Most hornet activity ceases when temperatures drop below 45°F-50°F, with the colony eventually dying off except for the hibernating queens."
-  },
-  {
-    question: "How to get rid of a large hornets nest?",
-    answer: "Large nests require professional technical dispatch. Technicians use specialized containment and neutralization protocols to ensure the entire colony is safely managed."
-  },
-  {
-    question: "What happens if you knock a wasp nest down?",
-    answer: "As with hornets, this will trigger a defensive swarm. Wasps will attack anything nearby to defend their queen and larvae."
-  },
-  {
-    question: "What household cleaner kills hornets?",
-    answer: "Dish soap mixed with water can suffocate hornets, but it requires direct contact and provides no protection from the rest of the swarming colony."
-  },
-  {
-    question: "Can I spray a wasp nest with a hose?",
-    answer: "No. Spraying a nest with water will not destroy the internal structure and will only provoke a coordinated attack against the person holding the hose."
-  },
-  {
-    question: "How to get rid of yellow jackets when you can't find the nest?",
-    answer: "Technical baiting protocols or professional tracing of worker flight patterns can locate hidden subterranean or structural nests for targeted removal."
-  },
-  {
-    question: "What household product kills wasps instantly?",
-    answer: "Specialized wasp and hornet sprays are designed for instant knockdown. Household products like bleach or vinegar are not recommended for safety reasons."
-  },
-  {
-    question: "What kills a hornet instantly?",
-    answer: "Professional-grade knockdown aerosols (technical pyrethroids) are designed to neutralize a hornet's nervous system instantly upon contact."
-  },
-  {
-    question: "What time of day are hornets least active?",
-    answer: "Activity levels are lowest during the middle of the night and the very early hours of the morning when it is dark and temperatures are lowest."
-  },
-  {
-    question: "How many hornets are usually in a nest?",
-    answer: "A mature hornet nest can contain between 200 and 700 workers, depending on the specific species and the time of the season."
-  },
-  {
-    question: "What happens when you spray a hornets nest?",
-    answer: "Unless using a technical knockdown agent that works instantly, the hornets will immediately exit the nest to find and sting the intruder."
-  },
-  {
-    question: "What smell do hornets hate?",
-    answer: "Hornets are repelled by strong essential oils like peppermint, as well as the residual chemical markers found in professional barrier treatments."
+    question: "Can you ever get rid of mice permanently?",
+    answer: "Yes, by maintaining a 'rodent-proofed' structure and practicing proper food hygiene, you can keep your home mouse-free indefinitely."
   }
 ];
 
@@ -163,37 +103,37 @@ const FAQ = () => {
   return (
     <section id="faq" className="py-24 bg-slate-950 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10 text-nowrap">
-        <div className="max-w-4xl mx-auto text-center mb-16 text-nowrap">
-          <h2 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase tracking-tight text-nowrap text-nowrap">
-            HORNET <span className="text-indigo-500">EXPERT KNOWLEDGE BASE</span>
+        <div className="max-w-4xl mx-auto text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase tracking-tight">
+            PEOPLE <span className="text-indigo-500">ALSO ASK</span>
           </h2>
           <div className="w-24 h-1.5 bg-indigo-600 mx-auto rounded-full mb-12"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto text-nowrap">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-slate-900/40 border border-slate-800 p-8 rounded-3xl hover:border-indigo-500/50 transition-all group text-nowrap"
+              className="bg-slate-900/40 border border-slate-800 p-8 rounded-3xl hover:border-indigo-500/50 transition-all group"
             >
-              <h3 className="text-indigo-400 font-black text-[11px] uppercase tracking-[0.2em] mb-4 group-hover:text-indigo-300 transition-colors text-nowrap">
+              <h3 className="text-indigo-400 font-black text-[11px] uppercase tracking-[0.2em] mb-4 group-hover:text-indigo-300 transition-colors">
                 {faq.question}
               </h3>
-              <p className="text-slate-400 text-xs leading-relaxed font-medium italic text-nowrap">
+              <p className="text-slate-400 text-xs leading-relaxed font-medium italic">
                 {faq.answer}
               </p>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 max-w-2xl mx-auto text-nowrap">
-          <div className="p-10 bg-indigo-600 rounded-[3rem] text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40 text-center text-nowrap">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl text-nowrap" />
-            <h4 className="text-2xl font-black mb-4 uppercase tracking-tight text-nowrap">Need Terminal Extraction?</h4>
-            <p className="text-indigo-100 mb-8 font-bold italic text-nowrap">24/7 Brooksville Technical Dispatch Units Standing By</p>
-            <a href="tel:3238801224" className="inline-flex items-center gap-4 bg-white text-indigo-600 px-10 h-16 rounded-2xl font-black transition-all hover:scale-105 shadow-xl text-nowrap">
-              <Phone className="w-6 h-6 text-nowrap" />
-              <span className="text-xl text-nowrap">(323) 880-1224</span>
+        <div className="mt-16 max-w-2xl mx-auto">
+          <div className="p-10 bg-indigo-600 rounded-[3rem] text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40 text-center">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl" />
+            <h4 className="text-2xl font-black mb-4 uppercase tracking-tight">Need Rodent Removal?</h4>
+            <p className="text-indigo-100 mb-8 font-bold italic">24/7 Kaysville Technical Dispatch Units Standing By</p>
+            <a href="tel:3238801224" className="inline-flex items-center gap-4 bg-white text-indigo-600 px-10 h-16 rounded-2xl font-black transition-all hover:scale-105 shadow-xl">
+              <Phone className="w-6 h-6" />
+              <span className="text-xl">(323) 880-1224</span>
             </a>
           </div>
         </div>

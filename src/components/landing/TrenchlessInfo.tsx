@@ -4,69 +4,69 @@ import { Button } from "@/components/ui/button";
 const features = [
     {
         title: "Infrared Deployment",
-        description: "We use thermal imaging to locate hornet nests embedded deep within wall voids and attic insulation.",
+        description: "We use thermal imaging to locate rodent nests embedded deep within wall voids and attic insulation.",
         icon: Microscope
     },
     {
-        title: "Protective Containment",
-        description: "Standard master removal includes specialized protective gear and containment zones for aggressive species.",
+        title: "Total Containment",
+        description: "Our removal process includes specialized containment protocols to prevent pests from escaping into other areas.",
         icon: Zap
     },
     {
         title: "Structural Sealing",
-        description: "Technical gap closure after terminal nest removal to ensure no secondary hornet scouting occurs.",
+        description: "Technical gap closure after rodent removal to ensure no secondary pest entry occurs in your Kaysville home.",
         icon: ShieldCheck
     }
 ];
 
 const TrenchlessInfo = () => {
     return (
-        <section id="info" className="py-24 bg-white relative overflow-hidden text-nowrap">
-            <div className="container mx-auto px-4 text-nowrap">
-                <div className="grid lg:grid-cols-2 gap-16 items-center text-nowrap">
+        <section id="info" className="py-24 bg-white relative overflow-hidden">
+            <div className="container mx-auto px-4">
+                <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-                    <div className="order-2 lg:order-1 relative text-nowrap">
-                        <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3 text-nowrap text-nowrap" />
+                    <div className="order-2 lg:order-1 relative">
+                        <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3" />
                         <img
                             src="/3.jpeg"
-                            alt="Brooksville Hornet Technical Extraction"
-                            className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.3] hover:grayscale-0 transition-all duration-700 text-nowrap"
+                            alt="Kaysville Rodent Technical Extraction"
+                            className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.3] hover:grayscale-0 transition-all duration-700"
                         />
-                        <div className="absolute top-12 -right-12 z-20 bg-slate-900 p-8 rounded-3xl shadow-2xl border border-indigo-500/30 text-nowrap">
-                            <div className="flex items-center gap-4 text-nowrap">
-                                <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center text-nowrap text-nowrap">
-                                    <Activity className="w-6 h-6 text-white text-nowrap" />
+                        <div className="absolute top-12 -right-12 z-20 bg-slate-900 p-8 rounded-3xl shadow-2xl border border-indigo-500/30">
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center">
+                                    <Activity className="w-6 h-6 text-white" />
                                 </div>
-                                <div className="text-nowrap text-nowrap">
-                                    <p className="text-2xl font-black text-white text-nowrap uppercase">100%</p>
-                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest text-nowrap uppercase">Extraction Rate</p>
+                                <div>
+                                    <p className="text-2xl font-black text-white uppercase">100%</p>
+                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest uppercase">Extraction Rate</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="order-1 lg:order-2 text-nowrap">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-slate-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap uppercase">
-                            <Bug className="w-4 h-4 text-nowrap" />
-                            Technical Hornet Protocol
+                    <div className="order-1 lg:order-2">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-slate-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold uppercase">
+                            <Bug className="w-4 h-4" />
+                            Technical Rodent Protocol
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase">
+                        <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight uppercase">
                             Precision Extraction <br />
-                            <span className="text-indigo-600 text-nowrap uppercase">For Brooksville Area</span>
+                            <span className="text-indigo-600 uppercase">For Kaysville Area</span>
                         </h2>
-                        <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-                            Our recovery protocols integrate industrial-grade <br /> inspection technologies with traditional master hornet <br /> elimination for Brooksville's premier structures.
+                        <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium">
+                            Our recovery protocols integrate industrial-grade inspection technologies with professional rodent elimination for Kaysville's premier structures.
                         </p>
 
-                        <div className="space-y-8 mb-12 text-nowrap">
+                        <div className="space-y-8 mb-12">
                             {features.map((feature, index) => (
-                                <div key={index} className="flex gap-6 group text-nowrap">
-                                    <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors text-nowrap">
-                                        <feature.icon className="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors text-nowrap" />
+                                <div key={index} className="flex gap-6 group">
+                                    <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors">
+                                        <feature.icon className="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors" />
                                     </div>
-                                    <div className="text-nowrap text-nowrap">
-                                        <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-tight text-nowrap uppercase">{feature.title}</h3>
-                                        <p className="text-slate-600 text-sm font-medium italic text-nowrap">{feature.description}</p>
+                                    <div>
+                                        <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-tight uppercase">{feature.title}</h3>
+                                        <p className="text-slate-600 text-sm font-medium italic">{feature.description}</p>
                                     </div>
                                 </div>
                             ))}
